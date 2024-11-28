@@ -10,7 +10,7 @@ async function bootstrap() {
     { transport: Transport.TCP, options: { port: envs.PORT } },
   );
 
-  const logger = new Logger('Main');
+  const logger = new Logger('Products-Main');
 
 
   app.useGlobalPipes(
